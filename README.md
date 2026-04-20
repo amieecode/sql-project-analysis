@@ -54,7 +54,7 @@ Performed SQL and Python-based analysis to identify patterns in:
     - Payment behavior
     - Seller performance
 7. **Data Visualization:**
-Used Matplotlib to create charts (line, bar, distribution plots) to support insights and storytelling.
+    - Used Matplotlib to create charts (line, bar, distribution plots) to support insights and storytelling.
 
 ## Key Analysis & Insights
 ### Sales Trend
