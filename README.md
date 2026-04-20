@@ -28,6 +28,34 @@ The project uses 7 datasets:
 - Matplotlib – Data visualization
 - Google Colab – Development environment
 
+## Approach
+This project follows a structured end-to-end data analytics workflow:
+1. **Data Understanding:**
+    - Explored 7 datasets (customers, orders, order_items_clean, payments, products, sellers, geolocation) to understand relationships, keys, and data structure.
+2. **Data Cleaning & Preparation:**
+   - Handled missing values, removed duplicates, and converted columns to appropriate data types (especially datetime fields). Ensured consistency across datasets.
+3. **Data Integration:**
+   - Merged multiple datasets into a single master dataset using relational joins
+4. Feature Engineering:
+Created key analytical metrics such as:
+  - Delivery time (days)
+  - Approval time
+  - Average Order Value (AOV)
+  - Customer Lifetime Value (CLV)
+  - Revenue per customer
+  - Retention rate
+5. **Data Storage (SQL):**
+   - Loaded the cleaned dataset into MySQL using efficient bulk insert (LOAD DATA INFILE) and structured it for querying.
+6. **Exploratory Data Analysis (EDA):**
+Performed SQL and Python-based analysis to identify patterns in:
+  - Sales trends
+  - Product performance
+  - Customer distribution
+  - Payment behavior
+  - Seller performance
+7. **Data Visualization:**
+Used Matplotlib to create charts (line, bar, distribution plots) to support insights and storytelling.
+
 ## Key Analysis & Insights
 ### Sales Trend
 Sales peaked in October–November 2017
