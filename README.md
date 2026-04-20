@@ -114,12 +114,6 @@ These categories drive the majority of sales
 - SQL file (all queries)
 - Python/Colab notebook (analysis & visualizations)
 - Presentation (business insights)
-
-### How to Run
-- Clone the repository
-- Open the SQL file in MySQL
-- Run queries to generate insights
-- Open the Colab notebook to view visualizations
-
+  
 ### Conclusion
 This project highlights how data can be used to uncover customer behavior, sales drivers, and growth opportunities. While the business shows strong sales performance, improving customer retention and expanding into underperforming regions will be key to long-term success.
